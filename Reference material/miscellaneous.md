@@ -1,8 +1,8 @@
 ## Clone a repository from GitHub
 
-`- git clone`  
+`git clone`  
 
 ## Traversing git history.  
 
-`- git log`
+`git log`
 
