@@ -20,7 +20,7 @@ Write a program that displays a sequence of colors on the RGB LEDs in response t
 
 Write a program that uses a pushbutton to switch between two different modes: one mode where the LED fades in and out at a fixed rate, and another mode where the LED fades in and out at a rate controlled by the potentiometer.
 
-##Exercise 6: Play a Sound with the Buzzer
+## Exercise 6: Play a Sound with the Buzzer
 
 Write a program that plays a sound on the buzzer when a pushbutton is pressed. You can use the tone() function to generate a specific frequency, or you can create your own melody using a series of tone() and delay() calls.
 
