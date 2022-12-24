@@ -1,4 +1,4 @@
- # Leds, Pushbuttons, Potentiometer 
+# Leds, Pushbuttons, Potentiometer 
 
 ## Exercise 1: Toggle LED with Pushbutton
 
