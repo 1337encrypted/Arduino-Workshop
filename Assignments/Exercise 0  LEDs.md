@@ -19,7 +19,7 @@
 - Turn on the led for 500 milli seconds and print "Led is on"
 - Turn off the led and 500 milli seconds and print "Led is off"
 
-## Exercise 4: Control multiple LEDs with digitalWrite
+## Exercise 4: Control multiple LEDs with `digitalWrite`
 
 - Connect several LEDs to different digital output pins *D3, D4, D5* on your Arduino board.
 - Use the `digitalWrite` function to turn them on and off individually in a sequential order. 
@@ -32,6 +32,6 @@
 - Print *STOP, GET READY, GO, GET READY TO STOP* respectively on appropriate led lights.
 - You can use the `delay` function to add a delay between each step of the sequence.
 
-## Exercise 6: Create a binary 4 bit counter
-- Use digital pins D6, D5, D4, D3 to hookup the board 
+## Exercise 6: Create a binary 3 bit counter
+- Use digital pins D6, D5, D4 to hookup the board 
 
