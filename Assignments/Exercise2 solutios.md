@@ -1,25 +1,29 @@
 ## Exercise 1: Toggle LED with Pushbutton
 
 ```
-const int buttonPin = 2;  // Pin connected to pushbutton
-const int ledPin = 13;    // Pin connected to LED
+#define buttonPin 2;      // Pin connected to pushbutton
+#define ledPin 13;        // Pin connected to LED
 
-void setup() {
+void setup() 
+{
   // Set pin modes
   pinMode(buttonPin, INPUT);
   pinMode(ledPin, OUTPUT);
 }
 
-void loop() {
+void loop() 
+{
   // Read the state of the pushbutton
   int buttonState = digitalRead(buttonPin);
 
-  // If the button is pressed, turn on the LED
-  if (buttonState == HIGH) {
+  // If the button is pressed, turn on the LED, pull up resistor is implemented
+  if (buttonState == 0) 
+  {
     digitalWrite(ledPin, HIGH);
   }
   // If the button is not pressed, turn off the LED
-  else {
+  else 
+  {
     digitalWrite(ledPin, LOW);
   }
 }
@@ -30,11 +34,10 @@ void loop() {
 To control the brightness of an LED using a potentiometer, you can use the analogRead() function to read the value of the potentiometer and the analogWrite() function to control the brightness of the LED. 
 
 ```
-const int potentiometerPin = A0;  // Pin connected to potentiometer
-const int ledPin = 9;            // Pin connected to LED
+#define potentiometerPin = A0;  // Pin connected to potentiometer
+#define ledPin = 9;             // Pin connected to LED
 
 void setup() {
-  // Set pin modes
   pinMode(potentiometerPin, INPUT);
   pinMode(ledPin, OUTPUT);
 }
