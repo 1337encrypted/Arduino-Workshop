@@ -72,25 +72,25 @@ void setup() {
 
 void loop() {
   // Read the state of the pushbutton
+  
   int buttonState = digitalRead(buttonPin);
 
   // If the button is pressed, toggle the mode
-  if (buttonState == HIGH) {
+  if (buttonState == 0) {
     mode = !mode;
   }
 
   // If the mode is fixed rate
-  if (mode == 0) {
-    // Turn on the LED for 500ms
+  if (mode == 0)
+  {
     digitalWrite(ledPin, HIGH);
     delay(500);
-
-    // Turn off the LED for 500ms
     digitalWrite(ledPin, LOW);
     delay(500);
   }
   // If the mode is potentiometer control
-  else {
+  else 
+  {
     // Read the value of the potentiometer
     int potentiometerValue = analogRead(potentiometerPin);
 
